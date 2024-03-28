@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PC Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li class="active"><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Course Subscription</h2>
+            <p>You are currently subscribed to:</p>
+            <p><strong>Course:</strong> Introduction to PC Basics</p>
+        </section>
+        <section class="account">
+            <h2>Account Information</h2>
+            <div class="form-container">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <input type="submit" value="Update" class="update-btn">
+                </form>
+            </div>
+        </section>               
+    </main>
+    <footer>
+        <p>&copy; 2024 PC Courses</p>
+    </footer>
+</body>
+</html>
